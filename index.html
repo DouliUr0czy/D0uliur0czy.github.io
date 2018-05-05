@@ -1,46 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>DouliUroczy © 2018</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-</head>
-<body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Adel Hammoud Repo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
 
-  <div class="container">
-  	<h1><img src="CydiaIcon.png"> DouliUroczy Repository</h1>
-  </div>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-  <div class="container">
-  	<div class="well">
-  		<p><span class="text-primary"><b>DouliUroczy</span></b> is my public Cydia repository.</p>
-  		<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://d0uliur0czy.github.io/">Add to Cydia</a>
-  	</div>
-  </div>
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>Adel Hammoud</h1>
+							<p>Official Cydia Repo</p>
+						</header>
+						<footer>
+							<ul class="icons">
+								<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://douliuroczy.github.io" class="fa-plus">Add Repo</a></li>
+							</ul>
+						</footer>
+					</section>
 
-<div class="container">
-  <h3 id="wells" class="page-header">Hosted Packages</h3>
-</div>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; DouliUroczy © 2018 Adel Hammoud</li>
+						</ul>
+					</footer>
 
-<div class="container">
-	<div class="panel panel-default">
-	  <div class="panel-heading">Old Package</div>
-	  <div class="panel-body">
-		**iPhone Cam For iPad** iPhone camera UI for iPads.<br /><br />
-		<a class="btn btn-xs btn-default" href="depictions/?p=com.douliuroczy.campad">More info</a>
-	  </div>
-	</div>
+			</div>
 
-  <div class="panel panel-default">
-	  <div class="panel-heading">New Package</div>
-	  <div class="panel-body">
-      **iPad Pro KeyBoard** Bring the iPad Pro KeyBoard on any iPad in landscape. Tested on iPad mini 2 / mini 4 /air iOS 11.1.2.
-<br /><br />
-		<a class="btn btn-xs btn-default" href="http://cydia.saurik.com/package/com.douliuroczy.ipadprokb/">More info</a>
-	  </div>
-	</div>
-</div>
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
 
-</body>
+	</body>
+</html>
