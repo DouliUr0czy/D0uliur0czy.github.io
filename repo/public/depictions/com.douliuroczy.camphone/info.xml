@@ -1,0 +1,40 @@
+<package>
+	<id>com.douliuroczy.camphone</id>
+	<name>iPad Cam for iPhone (iOS10)</name>
+	<version>1.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>iPad camera UI for iPhones. Tested on iphone 6+ iOS 10.1.1</description>
+		<description>No options to configure for the moment.</description>
+		<description><![CDATA[
+		You can also have<br/>
+		a multi-line item.
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>This is a description for screenshot 1. It's Cydia!</description>
+			<image>ipadcamiphone1.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>1.2</change>
+		<change>Bug Fix</change>
+		<change>-Fixed landscape now only flash button rotate</change>
+	</changelog>
+	<links>
+		<link>
+			<name>Donate</name>
+			<url>https://www.paypal.me/DouliUroczy</url>
+			<iconclass>fa fa-paypal</iconclass>
+		</link>
+	</links>
+</package>

@@ -1,0 +1,37 @@
+<package>
+	<id>com.douliuroczy.campad</id>
+	<name>iPhone Cam for iPad</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>iPhone camera UI for iPads.      thanks to rob311 for the help.</description>
+		<description><![CDATA[
+		You can also have<br/>
+		a multi-line item.
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>iphonecamipad1.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>1.0</change>
+	</changelog>
+	<links>
+		<link>
+			<name>Donate</name>
+			<url>https://www.paypal.me/DouliUroczy</url>
+			<iconclass>fa fa-paypal</iconclass>
+		</link>
+	</links>
+</package>
