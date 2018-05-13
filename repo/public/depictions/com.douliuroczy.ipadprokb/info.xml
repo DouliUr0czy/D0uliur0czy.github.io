@@ -1,7 +1,7 @@
 <package>
 	<id>com.douliuroczy.ipadprokb</id>
 	<name>iPad Pro KeyBoard</name>
-	<version>1.0.0</version>
+	<version>1.1.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -13,10 +13,6 @@
 	<descriptionlist>
 		<description>bring the iPad Pro KeyBoard on any iPad in landscape. Tested on iPad mini 2 / mini 4 /air iOS 11.1.2</description>
 		<description>requested by a friend u/LOUAIZEMA</description>
-		<description><![CDATA[
-		You can also have<br/>
-		a multi-line item.
-		]]>
 		</description>
 	</descriptionlist>
 	<screenshots>
@@ -26,7 +22,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>1.0.0</change>
+		<change>Added Enable/Disable option in settings</change>
 	</changelog>
 	<links>
 		<link>

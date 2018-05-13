@@ -12,10 +12,6 @@
 	</dependencies>
 	<descriptionlist>
 		<description>iPhone camera UI for iPads.      thanks to rob311 for the help.</description>
-		<description><![CDATA[
-		You can also have<br/>
-		a multi-line item.
-		]]>
 		</description>
 	</descriptionlist>
 	<screenshots>
@@ -25,7 +21,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>1.0</change>
+		<change>Initial Release</change>
 	</changelog>
 	<links>
 		<link>

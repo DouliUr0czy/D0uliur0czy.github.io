@@ -13,10 +13,6 @@
 	<descriptionlist>
 		<description>iPad camera UI for iPhones. Tested on iphone 6+ iOS 10.1.1</description>
 		<description>No options to configure for the moment.</description>
-		<description><![CDATA[
-		You can also have<br/>
-		a multi-line item.
-		]]>
 		</description>
 	</descriptionlist>
 	<screenshots>
@@ -26,7 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>1.2</change>
 		<change>Bug Fix</change>
 		<change>-Fixed landscape now only flash button rotate</change>
 	</changelog>
