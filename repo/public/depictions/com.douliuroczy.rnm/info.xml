@@ -1,7 +1,7 @@
 <package>
 	<id>com.douliuroczy.rnm</id>
 	<name>Rick ANd Morty logo pack (zeppelin)</name>
-	<version>0.1</version>
+	<version>0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>1.0</miniOS>
@@ -18,7 +18,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Initial release</change>
+		<change>Fix</change>
 	</changelog>
 	<links></links>
 </package>
