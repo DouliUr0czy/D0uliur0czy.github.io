@@ -5,7 +5,7 @@
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>10.2</maxiOS>
+			<maxiOS>11.1.2</maxiOS>
 			<otherVersions>unconfirmed</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
@@ -14,7 +14,7 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>Portrate mode (still in beta) for all 64bit devices on iOS 10 tested on iPhone 6 Plus ios 10.1.1 !!!don't install on ios10.3.x!!!</description>
+		<description>Portrate mode for all 64bit devices on iOS 10 tested on iPhone 6 Plus ios 10.1.1/11.1.2</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
