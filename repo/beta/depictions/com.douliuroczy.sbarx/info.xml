@@ -1,7 +1,7 @@
 <package>
 	<id>com.douliuroczy.sbarx</id>
 	<name>StatusBarX beta</name>
-	<version>1.5b</version>
+	<version>1.6b</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -18,7 +18,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>beta tester release</change>
+		<change>Bug fix</change>
 	</changelog>
 	<links></links>
 </package>
