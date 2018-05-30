@@ -1,46 +1,97 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>DouliUroczy © 2018</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-</head>
-<body>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="Cydia Repo">
+	    <title>Home - D0uliUr0czy Repo</title>
+	    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-  <div class="container">
-  	<h1><img src="CydiaIcon.png"> DouliUroczy Repository</h1>
-  </div>
+		<style type="text/css">
 
-  <div class="container">
-  	<div class="well">
-  		<p><span class="text-primary"><b>DouliUroczy</span></b> is my public Cydia repository.</p>
-  		<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://d0uliur0czy.github.io/">Add to Cydia</a>
-  	</div>
-  </div>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				font-family: Calibri, sans-serif;
+			}
+			.background-wrap {
+				position: fixed;
+				z-index: -1000;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				top: 0;
+				left: 0;
+			}
 
-<div class="container">
-  <h3 id="wells" class="page-header">Hosted Packages</h3>
-</div>
+			#video-bg-elem {
+				position: absolute;
+				top: 0;
+				left: 0;
+				min-height: 100%;
+				min-width: 100%;
+			}
+			.content {
+				position: absolute;
+				width: 100%;
+				min-height: 100%;
+				z-index: 1000;
+				background-color: rgba(0,0,0,0.7);
+			}
+			.content h1 {
+				text-align: center;
+				font-size: 65px;
+				text-transform: uppercase;
+				font-weight: 300;
+				color: #fff;
+				padding-top: 15%;
+				margin-bottom: 10px;
+			}
+			.content p {
+				text-align: center;
+				font-size: 20px;
+				letter-spacing: 3px;
+				color: #aaa;
+			}
 
-<div class="container">
-	<div class="panel panel-default">
-	  <div class="panel-heading">Old Package</div>
-	  <div class="panel-body">
-		**iPhone Cam For iPad** iPhone camera UI for iPads.<br /><br />
-		<a class="btn btn-xs btn-default" href="depictions/?p=com.douliuroczy.campad">More info</a>
-	  </div>
-	</div>
+		</style>
 
-  <div class="panel panel-default">
-	  <div class="panel-heading">New Package</div>
-	  <div class="panel-body">
-      **iPad Pro KeyBoard** Bring the iPad Pro KeyBoard on any iPad in landscape. Tested on iPad mini 2 / mini 4 /air iOS 11.1.2.
-<br /><br />
-		<a class="btn btn-xs btn-default" href="http://cydia.saurik.com/package/com.douliuroczy.ipadprokb/">More info</a>
-	  </div>
-	</div>
-</div>
 
-</body>
+	</head>
+	<body>
+
+
+
+
+		<div class="background-wrap">
+			<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="">
+				<source src="rnm.mp4" type="video/mp4">
+				Video not supported
+			</video>
+		</div>
+
+		<div class="content">
+		<section class="portfolio-block block-intro" style="font-size:19px;">
+				<div class="container">
+						<div data-bs-hover-animate="flash" class="avatar" style="background-image:url(&quot;assets/img/Adel.jpg&quot;);"></div>
+						<div class="about-me">
+							<p style="font-size:24px;">Hello! I'm <strong>Adel Hammoud</strong>. I'm App/Tweak developer.</p></div>
+									<p style="font-size:24px;">My Repositories</p><a class="btn btn-outline-primary" role="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://d0uliur0czy.github.io/repo/public"
+											data-bs-hover-animate="shake" style="font-size:18px;">Public Repo</a><h4></h4><a class="btn btn-outline-primary" role="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://d0uliur0czy.github.io/repo/public"
+													data-bs-hover-animate="shake" style="font-size:18px;">Beta Repo</a></div>
+													<h1></h1>
+												<p style="font-size:20px;"><strong>Buy me a coffee?</strong></p><a class="btn btn-outline-primary" role="button" href="https://www.paypal.me/DouliUroczy"
+												data-bs-hover-animate="shake" style="font-size:17px;">PayPal</a></div>
+									</div>
+
+
+    <!-- https://d0uliur0czy.github.io/video -->
+
+	</body>
+</html>
