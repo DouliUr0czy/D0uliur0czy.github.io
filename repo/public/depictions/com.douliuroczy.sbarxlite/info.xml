@@ -21,6 +21,8 @@
 		<screenshot>
 			<description>iPhone</description>
 			<image>iphone.png</image>
+		</screenshot>
+		<screenshot>
 				<description>iPad</description>
 				<image>ipad.png</image>
 		</screenshot>
