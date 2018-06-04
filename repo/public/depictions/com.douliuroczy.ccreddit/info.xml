@@ -1,0 +1,24 @@
+<package>
+	<id>com.douliuroczy.ccreddit</id>
+	<name>CCRedditModule</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>11.1.2</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>mobilesubstrate, com.opa334.ccsupport</dependencies>
+	<descriptionlist>
+		<description>Launch Reddit from control center</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
